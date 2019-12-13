@@ -1,0 +1,12 @@
+Sample Curl to hit Discount service URL.
+
+curl -X GET \
+  http://localhost:8080/discountService/income/26000/discount \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Host: localhost:8080' \
+  -H 'Postman-Token: 9ec0e5e7-bd85-4c56-a81d-0ee93c39a983,842ea893-3df0-485d-b4c5-a88c04c5c678' \
+  -H 'User-Agent: PostmanRuntime/7.20.1' \
+  -H 'cache-control: no-cache'
